@@ -41,18 +41,34 @@ public class Operaciones {
 	}
 
 	public void resta() {
-		this.resultado=this.num1-this.num2;
-		System.out.print("El resultado de la suma es: " + this.resultado);
+		if (this.num1>this.num2) {
+			this.resultado=this.num1-this.num2;
+			System.out.print("El resultado de la resta es: " + this.resultado);
+		} 
+		if (this.num1<this.num2) {
+			System.out.print("Error, el primer número debe ser mayor que el segundo");
+		}
+		else {
+			return;
+		}
+	
 	}
 	
 	public void multiplicar() {
 		this.resultado=this.num1*this.num2;
-		System.out.print("El resultado de la suma es: " + this.resultado);
+		System.out.print("El resultado de la multiplicación es: " + this.resultado);
 	}
 	
 	public void dividir() {
-		this.resultado=this.num1/this.num2;
-		System.out.print("El resultado de la suma es: " + this.resultado);
+		if (this.num1>this.num2) {
+			this.resultado=this.num1/this.num2;
+		System.out.print("El resultado de la división es: " + this.resultado);
+		}
+		if (this.num1<this.num2) {
+			System.out.print("Error, el primer número debe ser mayor que el segundo");
+		}
+		
+		
 	}
 	
 	

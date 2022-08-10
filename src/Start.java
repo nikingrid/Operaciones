@@ -20,10 +20,10 @@ public class Start {
 		
 		System.out.print("\n");
 		
-		System.out.println("Introduce el primer número:");      
+		System.out.print("Introduce el primer número:");      
 		op.num1= add.nextInt();
 		
-		System.out.println("Introduce el segundo número:");      
+		System.out.print("Introduce el segundo número:");      
 		op.num2= add.nextInt();
 		
 		switch (opcion) {
@@ -34,10 +34,10 @@ public class Start {
 			op.resta();
 			 break;
 		case 3:
-			op.multiplicar();
+			op.dividir();
 			break;
 		case 4:
-			op.dividir(); 
+			op.multiplicar(); 
 			break;
 		}
 				

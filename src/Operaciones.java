@@ -33,6 +33,27 @@ public class Operaciones {
 		this.resultado = resultado;
 	}
 	
+	//Métodos
+	
+	public void suma() {
+		this.resultado=this.num1+this.num2;
+		System.out.print("El resultado de la suma es: " + this.resultado);
+	}
+
+	public void resta() {
+		this.resultado=this.num1-this.num2;
+		System.out.print("El resultado de la suma es: " + this.resultado);
+	}
+	
+	public void multiplicar() {
+		this.resultado=this.num1*this.num2;
+		System.out.print("El resultado de la suma es: " + this.resultado);
+	}
+	
+	public void dividir() {
+		this.resultado=this.num1/this.num2;
+		System.out.print("El resultado de la suma es: " + this.resultado);
+	}
 	
 	
 }

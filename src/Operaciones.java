@@ -2,30 +2,37 @@
 public class Operaciones {
 
 	//Atributos
-	protected int num1;
-	protected int num2;
-	protected int resultado;
+	protected float num1;
+	protected float num2;
+	protected float resultado;
 	
-	//Getters y Setters
-	public int getNum1() {
+	//Constructor
+	public Operaciones() {
+		this.num1=0.0f;
+		this.num2=0.0f;
+		this.resultado=0.0f;
+	}
+	
+	//Setters and Getters
+	public float getNum1() {
 		return num1;
 	}
-	public void setNum1(int num1) {
+	public void setNum1(float num1) {
 		this.num1 = num1;
 	}
-	public int getNum2() {
+	public float getNum2() {
 		return num2;
 	}
-	public void setNum2(int num2) {
+	public void setNum2(float num2) {
 		this.num2 = num2;
 	}
-	public int getResultado() {
+	public float getResultado() {
 		return resultado;
 	}
-	public void setResultado(int resultado) {
+	public void setResultado(float resultado) {
 		this.resultado = resultado;
 	}
 	
-	//Métodos
+	
 	
 }

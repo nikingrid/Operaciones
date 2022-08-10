@@ -8,9 +8,6 @@ public class Start {
 		Scanner add = new Scanner(System.in);
 		
 		String opcion="";
-		int resultado=0;
-		int num1=0;
-		int num2=0;
 		
 		System.out.print("1. Sumar" + "\n");
 		System.out.print("2. Restar" + "\n");
@@ -20,12 +17,6 @@ public class Start {
 		opcion = add.next();	
 		
 		System.out.print("\n");
-		
-		System.out.print("Introduce el primer número:"); 
-		num1=add.nextInt();
-		
-		System.out.print("Introduce el segundo número:"); 
-		num2=add.nextInt();
 		
 
 	}
